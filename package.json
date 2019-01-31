@@ -1,0 +1,51 @@
+{
+  "name": "UI",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^4.4.1",
+    "carbon-components": "^8.2.2",
+    "carbon-components-react": "^5.12.0",
+    "carbon-icons": "^6.2.0",
+    "redux-logger": "^3.0.6",
+    "font-awesome": "^4.7.0",
+    "material-ui": "^0.20.0",
+    "axios": "^0.16.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "tests": "jest --coverage",
+    "tests:watch": "npm run tests -- --watch",
+    "eject": "react-scripts eject",
+    "gulp": "gulp"
+  },
+  "engines": {
+    "node": "6.7.0",
+    "npm": "3.10.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jest": "^22.1.4",
+    "react-test-renderer": "^16.2.0",
+    "regenerator-runtime": "^0.11.1"
+  }
+}

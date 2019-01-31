@@ -1,0 +1,71 @@
+$blueNavBarColor: #deedf7;
+$black: #000;
+
+.compMainPaigMargin {
+  margin-top: 30px;
+}
+
+.cartaPorteLabel {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.toggleButton {
+  position: absolute;
+  left: 50%;
+  margin-top: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.navBar {
+  background-color: $blueNavBarColor !important;
+}
+
+.navBarTitle {
+  color: $black !important;
+}
+
+.cardMargin {
+  margin-top: 30px !important;
+}
+
+.cardStyle {
+  height: 100% !important;
+  width: 100% !important;
+  text-align: center !important;
+  display: inline-block !important;
+  margin-bottom: 15px  !important;
+}
+
+.avatarStyle {
+  height: 15vh !important;
+  width: 15vh !important;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+  background-color: #FFF !important;
+  cursor: pointer !important;
+}
+
+.linkTitle {
+  cursor: pointer !important;
+}
+
+.labelModalStyle {
+  margin: 10px 10px 0px 10px !important;
+}
+
+.textinputModalStyle {
+  margin: 0px 0px 0px 0px !important;
+}
+
+.paddinFive {
+  padding: 5px !important;
+}
+
+.buttonSave {
+  margin: 15px !important;
+}
+
+.buttonCancel {
+  margin: 15px !important;
+}
